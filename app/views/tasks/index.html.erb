@@ -1,0 +1,13 @@
+<h1>Family To Do</h1>
+<%= link_to '新規投稿', '/tasks/new' %>
+
+<% @tasks.each do |task| %>
+  <div class="task">
+    <div class="post-date">
+      投稿日時：<%= task.created_at %>
+    </div>
+    <div class="post-content">
+      <%= task.memo %>
+    </div>
+  </div>
+<% end %>

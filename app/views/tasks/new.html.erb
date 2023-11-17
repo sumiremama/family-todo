@@ -1,0 +1,6 @@
+<h2>新規投稿ページ</h2>
+
+<%= form_with url: "/tasks", method: :post, local: true do |form| %>
+  <%= form.text_area :title, placeholder:"タイトル（例 市役所手続きetc.)", maxlength:"40" %>
+  <%= form.submit '投稿する' %>
+<% end %>
