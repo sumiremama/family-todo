@@ -4,13 +4,32 @@ class TasksController < ApplicationController
   end
 
   def new
+    @categories = Category.all
     @task = Task.new
   end
   
   def create
-    @task = Task.new
-    if @Task.save
-      redirerct_to '/'
-    end  
+    Task.create(task_params)
+    redirect_to '/'
+  end
+
+  def destroy
+    task = Task.find(params[:id])
+    task.destroy
+  end
+
+  def edit
+  end
+
+  def update
+  end
+  
+  def search
+    @tasks = Task.search(params[:keyword])
+  end
+
+  private
+  def task_params
+    params.require(:task).permit(:title, :memo, :category_id, :target_date)
   end
 end

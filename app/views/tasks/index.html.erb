@@ -1,13 +1,26 @@
-<h1>Family To Do</h1>
-<%= link_to '新規投稿', '/tasks/new' %>
+<%= form_with(url: '#', local: true, method: :get, class: "search-form") do |form| %>
+  <%= form.text_field :keyword, placeholder: "投稿を検索する", class: "search-input" %>
+  <%= form.submit "検索", class: "search-btn" %>
+<% end %>
+<div class="contents row">
+  <%= %>
+</div>
 
 <% @tasks.each do |task| %>
-  <div class="task">
-    <div class="post-date">
-      投稿日時：<%= task.created_at %>
-    </div>
-    <div class="post-content">
-      <%= task.memo %>
+  <div class="contents row">
+    <div class="container">
+      <div class="task">
+        <div class="post-content">
+          <%= task.title %>
+        </div>
+        <div class="post-content">  
+          <%= task.memo %>
+        </div>
+        <div class="post-date">
+          期限：<%= task.target_date %>
+        </div>
+        </div>
+      </div>
     </div>
   </div>
 <% end %>

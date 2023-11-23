@@ -3,7 +3,7 @@ class CreateTasks < ActiveRecord::Migration[7.0]
     create_table :tasks do |t|
       t.string :title, null: false
       t.text :memo
-      t.integer :category, null: false
+      t.integer :category_id, null: false
       t.string :target_date
       t.timestamps
     end
