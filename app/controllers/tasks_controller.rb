@@ -1,4 +1,7 @@
 class TasksController < ApplicationController
+  before_action :set_item, only: [:edit, :update]
+
+
   def index
     @tasks = Task.all.order('created_at DESC')
   end
@@ -18,10 +21,15 @@ class TasksController < ApplicationController
     task.destroy
   end
 
-  def edit
+  def edit 
   end
 
   def update
+    if @task.update(task_params)
+      redirect_to '/'
+    else
+      render :edit, status: :unprocessable_entity
+    end
   end
   
   def search
@@ -32,4 +40,8 @@ class TasksController < ApplicationController
   def task_params
     params.require(:task).permit(:title, :memo, :category_id, :target_date)
   end
+
+  def set_item
+    @task = Task.find(params[:id])
+  end  
 end

@@ -16,7 +16,8 @@
         <div class="post-date">
           期限：<%= task.target_date %>
         </div>
-        <%= link_to "☑️完了", "/tasks/#{task.id}", data: { turbo_method: :delete }, class:"search-btn" %>
+        <%= link_to "✏️編集", edit_task_path(task.id) %>
+        <%= link_to "✅完了", "/tasks/#{task.id}", data: { turbo_method: :delete }, class:"search-btn" %>
       </div>
     </div>
   </div>

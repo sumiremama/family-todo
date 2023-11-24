@@ -1,0 +1,12 @@
+<div class="contents row">
+  <div class="container">
+    <h3>編集する</h3>
+    <%= form_with(model: @task, local: true) do |f| %>
+      <%= f.text_area :title, placeholder:"タイトル（例 市役所手続きetc.)", maxlength:"40" %>
+      <%= f.text_area :memo, placeholder:"メモ・URLを入力", maxlength:"40" %>
+      <%= f.date_field :target_date, value: @task.target_date %>
+      <%= f.collection_select(:category_id, Category.all, :id, :name) %>
+      <%= f.submit '更新する' %>
+    <% end %>
+  </div>
+</div>
