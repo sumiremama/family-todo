@@ -28,9 +28,9 @@ https://family-todo.onrender.com
 * SNSアカウントでログイン
 * タスク一覧をカテゴリ別にタブ表示
 # データベース設計
-
+[![Image from Gyazo](https://i.gyazo.com/c4e61bd6fada2716161e5a61edab6d7f.png)](https://gyazo.com/c4e61bd6fada2716161e5a61edab6d7f)
 # 画面遷移図
-
+[![Image from Gyazo](https://i.gyazo.com/00a8ffa73103f71cfc007448751fad7d.png)](https://gyazo.com/00a8ffa73103f71cfc007448751fad7d)
 # 開発環境
 Ruby/Ruby on Rails/MySQL/Github/Render/Visual Studio Code
 # 工夫したポイント
