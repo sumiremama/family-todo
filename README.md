@@ -13,7 +13,8 @@ https://family-todo.onrender.com
 * メールアドレス : test@test.com
 * パスワード : 123qwe
 # 利用方法
-
+<a href="https://gyazo.com/3ce29378a8904f60098a111d54c2c492"><img src="https://i.gyazo.com/3ce29378a8904f60098a111d54c2c492.png" alt="Image from Gyazo" width="700"/></a>
+<a href="https://gyazo.com/efd11000b090e3e5dc3707d4e3933a55"><img src="https://i.gyazo.com/efd11000b090e3e5dc3707d4e3933a55.png" alt="Image from Gyazo" width="500"/></a>  <a href="https://gyazo.com/71a57e3f6495a592e1b34761fcb8ec3c"><img src="https://i.gyazo.com/71a57e3f6495a592e1b34761fcb8ec3c.png" alt="Image from Gyazo" width="500"/></a>  <a href="https://gyazo.com/a4122669992f31ced7a4aeb4e0c9096b"><img src="https://i.gyazo.com/a4122669992f31ced7a4aeb4e0c9096b.png" alt="Image from Gyazo" width="500"/></a>
 # アプリケーションを作成した背景
 
 # 実装した機能についての画像やGIFとその説明
@@ -23,6 +24,7 @@ https://family-todo.onrender.com
 * タスク一覧表示
 * タスク編集機能
 * タスク削除機能
+* タスク検索機能
 # 実装予定の機能
 * LINE経由でアプリ招待機能
 * SNSアカウントでログイン
