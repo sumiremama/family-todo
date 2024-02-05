@@ -13,8 +13,10 @@ https://family-todo.onrender.com
 * メールアドレス : test@test.com
 * パスワード : 123qwe
 # 利用方法
-<a href="https://gyazo.com/3ce29378a8904f60098a111d54c2c492"><img src="https://i.gyazo.com/3ce29378a8904f60098a111d54c2c492.png" alt="Image from Gyazo" width="700"/></a>
-<a href="https://gyazo.com/efd11000b090e3e5dc3707d4e3933a55"><img src="https://i.gyazo.com/efd11000b090e3e5dc3707d4e3933a55.png" alt="Image from Gyazo" width="500"/></a>  <a href="https://gyazo.com/71a57e3f6495a592e1b34761fcb8ec3c"><img src="https://i.gyazo.com/71a57e3f6495a592e1b34761fcb8ec3c.png" alt="Image from Gyazo" width="500"/></a>  <a href="https://gyazo.com/a4122669992f31ced7a4aeb4e0c9096b"><img src="https://i.gyazo.com/a4122669992f31ced7a4aeb4e0c9096b.png" alt="Image from Gyazo" width="500"/></a>
+<a href="https://gyazo.com/2681f6a034f8d0743a1551fb10808481"><img src="https://i.gyazo.com/2681f6a034f8d0743a1551fb10808481.gif" alt="Image from Gyazo" width="500"/></a>
+<a href="https://gyazo.com/95fc5d8b12538afc05962fc65b3008c5"><img src="https://i.gyazo.com/95fc5d8b12538afc05962fc65b3008c5.gif" alt="Image from Gyazo" width="500"/></a>
+<a href="https://gyazo.com/0cd57cab44b6e59c62993c41e393ca9e"><img src="https://i.gyazo.com/0cd57cab44b6e59c62993c41e393ca9e.gif" alt="Image from Gyazo" width="500"/></a>
+<a href="https://gyazo.com/f29b56080fd2212050aaf5df219b8d2e"><img src="https://i.gyazo.com/f29b56080fd2212050aaf5df219b8d2e.gif" alt="Image from Gyazo" width="500"/></a>
 # アプリケーションを作成した背景
 * 期限のある用事や買い物リストを家族で共有するためにLINEを使用していたが、文字検索タイムラインをさかのぼって内容を探したりするのが面倒だと感じていた
 * 用事リストと買い物リストを別々のアプリで管理するのは面倒なので1つのツールでまとめて管理したい
