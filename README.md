@@ -13,9 +13,17 @@ https://family-todo.onrender.com
 * メールアドレス : test@test.com
 * パスワード : 123qwe
 # 利用方法
+* 新規ユーザー登録機能
+  
 <a href="https://gyazo.com/2681f6a034f8d0743a1551fb10808481"><img src="https://i.gyazo.com/2681f6a034f8d0743a1551fb10808481.gif" alt="Image from Gyazo" width="500"/></a>
+* ユーザーログイン機能
+  
 <a href="https://gyazo.com/95fc5d8b12538afc05962fc65b3008c5"><img src="https://i.gyazo.com/95fc5d8b12538afc05962fc65b3008c5.gif" alt="Image from Gyazo" width="500"/></a>
+* Todo投稿機能
+  
 <a href="https://gyazo.com/0cd57cab44b6e59c62993c41e393ca9e"><img src="https://i.gyazo.com/0cd57cab44b6e59c62993c41e393ca9e.gif" alt="Image from Gyazo" width="500"/></a>
+* Todo編集機能
+  
 <a href="https://gyazo.com/f29b56080fd2212050aaf5df219b8d2e"><img src="https://i.gyazo.com/f29b56080fd2212050aaf5df219b8d2e.gif" alt="Image from Gyazo" width="500"/></a>
 # アプリケーションを作成した背景
 * 期限のある用事や買い物リストを家族で共有するためにLINEを使用していたが、文字検索タイムラインをさかのぼって内容を探したりするのが面倒だと感じていた
