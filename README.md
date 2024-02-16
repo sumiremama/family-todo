@@ -6,7 +6,7 @@ Family-Todo
 * 期限付きのタスクは期限も共有することでうっかりを防ぐ
 * 投稿者以外のユーザーもリストの編集＆削除ができる
 # URL
-https://family-todo.onrender.com
+https://family-todo2.onrender.com
 # テスト用アカウント
 * BASIC認証ID : admin
 * BASIC認証パスワード : 2222
